@@ -7,7 +7,7 @@ import AudioAnalyser from './AudioAnalyser';
 import Button from '@material-ui/core/Button';
 import React from 'react';
 import WebcamCapture from './WebcamCapture';
-import { calculateHeightInPx, calculateWidthInPx } from '../utils';
+import { calculateHeightInPx, calculateWidthInPx } from '../utils/size';
 
 export default class Calibration extends React.Component {
   constructor(props) {

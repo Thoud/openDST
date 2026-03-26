@@ -3,7 +3,7 @@ import Button from '@material-ui/core/Button';
 import i18next from 'i18next';
 import WebcamCapture from './WebcamCapture';
 import ExplanationSpeechTask from './ExplanationSpeechTask';
-import { calculateHeightInPx, calculateWidthInPx } from '../utils';
+import { calculateHeightInPx, calculateWidthInPx } from '../utils/size';
 
 export default class SpeechTaskCalibration extends React.Component {
   constructor(props) {

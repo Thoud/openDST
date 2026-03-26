@@ -4,7 +4,7 @@ import { withStyles } from '@material-ui/core';
 import Button from '@material-ui/core/Button';
 import i18next from 'i18next';
 import Card from '@material-ui/core/Card';
-import { calculateWidthInPx } from '../utils';
+import { calculateWidthInPx } from '../utils/size';
 
 let width = calculateWidthInPx(85);
 

@@ -6,7 +6,7 @@ import TaskFrame from '../components/TaskFrame';
 import NumberInputField from '../components/NumberInputField';
 import VideocamIcon from '@material-ui/icons/Videocam';
 import i18next from 'i18next';
-import { calculateHeightInPx } from '../utils';
+import { calculateHeightInPx } from '../utils/size';
 
 const wrong = '#ff0000';
 const bgDefault = 'white';

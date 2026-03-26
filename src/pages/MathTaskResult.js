@@ -1,7 +1,7 @@
 import i18next from 'i18next';
 import FeedbackChart from '../components/FeedbackChart';
 import Button from '@material-ui/core/Button';
-import { calculateHeightInPx } from '../utils';
+import { calculateHeightInPx } from '../utils/size';
 
 export default function MathTaskResult({ mathTaskScore, handleNext }) {
   return (

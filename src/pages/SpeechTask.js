@@ -8,7 +8,7 @@ import AudioAnalyser from '../components/AudioAnalyser';
 import TrafficLightComponent from '../components/TrafficLightComponent';
 import SpeechTaskCalibration from '../components/SpeechTaskCalibration';
 import CountdownSpeechTask from '../components/CountdownSpeechTask';
-import { calculateWidthInPx, calculateHeightInPx } from '../utils';
+import { calculateWidthInPx, calculateHeightInPx } from '../utils/size';
 
 export default class SpeechTask extends React.Component {
   constructor(props) {
