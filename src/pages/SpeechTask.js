@@ -40,7 +40,9 @@ export default class SpeechTask extends React.Component {
           i18next.t('speechTask.question_0.header'),
           i18next.t('speechTask.prepare') +
             ' ' +
-            i18next.t('speechTask.question_0.question'),
+            (process.env.REACT_APP_ALTERNATIVE_VERSION === 'true'
+              ? i18next.t('speechTask.question_0.question_alternative')
+              : i18next.t('speechTask.question_0.question')),
         ],
         [
           'runTask1',
@@ -49,7 +51,9 @@ export default class SpeechTask extends React.Component {
           i18next.t('speechTask.question_0.header'),
           i18next.t('speechTask.feedback_0') +
             ' ' +
-            i18next.t('speechTask.question_0.question'),
+            (process.env.REACT_APP_ALTERNATIVE_VERSION === 'true'
+              ? i18next.t('speechTask.question_0.question_alternative')
+              : i18next.t('speechTask.question_0.question')),
         ],
         [
           'introTask2',
@@ -58,7 +62,9 @@ export default class SpeechTask extends React.Component {
           i18next.t('speechTask.question_1.header'),
           i18next.t('speechTask.prepare') +
             ' ' +
-            i18next.t('speechTask.question_1.question'),
+            (process.env.REACT_APP_ALTERNATIVE_VERSION === 'true'
+              ? i18next.t('speechTask.question_1.question_alternative')
+              : i18next.t('speechTask.question_1.question')),
         ],
         [
           'runTask2',
@@ -67,7 +73,9 @@ export default class SpeechTask extends React.Component {
           i18next.t('speechTask.question_1.header'),
           i18next.t('speechTask.feedback_0') +
             ' ' +
-            i18next.t('speechTask.question_1.question'),
+            (process.env.REACT_APP_ALTERNATIVE_VERSION === 'true'
+              ? i18next.t('speechTask.question_1.question_alternative')
+              : i18next.t('speechTask.question_1.question')),
         ],
         [
           'introTask3',
@@ -76,7 +84,9 @@ export default class SpeechTask extends React.Component {
           i18next.t('speechTask.question_2.header'),
           i18next.t('speechTask.prepare') +
             ' ' +
-            i18next.t('speechTask.question_2.question'),
+            (process.env.REACT_APP_ALTERNATIVE_VERSION === 'true'
+              ? i18next.t('speechTask.question_2.question_alternative')
+              : i18next.t('speechTask.question_2.question')),
         ],
         [
           'runTask3',
@@ -85,7 +95,9 @@ export default class SpeechTask extends React.Component {
           i18next.t('speechTask.question_2.header'),
           i18next.t('speechTask.feedback_0') +
             ' ' +
-            i18next.t('speechTask.question_2.question'),
+            (process.env.REACT_APP_ALTERNATIVE_VERSION === 'true'
+              ? i18next.t('speechTask.question_2.question_alternative')
+              : i18next.t('speechTask.question_2.question')),
         ],
       ],
       speechTaskStateCounter: 0,

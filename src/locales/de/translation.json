@@ -182,15 +182,18 @@
     "prepare": "Bereiten Sie eine Antwort vor:",
     "question_0": {
       "header": " Frage 1",
-      "question": "Beschreiben Sie eine Situation, in der eine Ihrer Ideen kritisiert wurde."
+      "question": "Beschreiben Sie eine Situation, in der eine Ihrer Ideen kritisiert wurde.",
+      "question_alternative": "Erzählen Sie von einer Situation, in der jemand stark unzufrieden mit Ihrer Leistung war. Wie sind Sie damit umgegangen?"
     },
     "question_1": {
       "header": " Frage 2",
-      "question": "Was sind Ihre größten Schwächen?"
+      "question": "Was sind Ihre größten Schwächen?",
+      "question_alternative": "Welche Ihrer Eigenschaften würden Kolleginnen oder Kollegen vermutlich als schwierig beschreiben?"
     },
     "question_2": {
       "header": " Frage 3",
-      "question": "Was bedeutet Verrat? Haben Sie schon mal eine Person oder Idee verraten?"
+      "question": "Was bedeutet Verrat? Haben Sie schon mal eine Person oder Idee verraten?",
+      "question_alternative": "Erzählen Sie von einer Situation, in der Sie eine wichtige Entscheidung getroffen haben, die für eine andere Person negative Folgen hatte."
     },
     "calibration": {
       "task": "Sie können nun zur Kalibrierung etwas über Ihre Fähigkeiten reden."

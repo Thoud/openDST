@@ -182,15 +182,18 @@
     "prepare": "Prepare your presentation:",
     "question_0": {
       "header": " Question 1",
-      "question": "Describe a situation when you've been criticised by someone."
+      "question": "Describe a situation when you've been criticised by someone.",
+      "question_alternative": "Tell us about a situation in which someone was very dissatisfied with your performance. How did you deal with it?"
     },
     "question_1": {
       "header": " Question 2",
-      "question": "What are your biggest weaknesses?"
+      "question": "What are your biggest weaknesses?",
+      "question_alternative": "Which of your qualities would your colleagues likely describe as difficult?"
     },
     "question_2": {
       "header": " Question 3",
-      "question": "What does betrayal mean to you? Have you ever betrayed someone in order to get something?"
+      "question": "What does betrayal mean to you? Have you ever betrayed someone in order to get something?",
+      "question_alternative": "Tell about a situation in which you made an important decision that had negative consequences for another person."
     },
     "calibration": {
       "task": "To calibrate you can talk about a preferred topic now."
