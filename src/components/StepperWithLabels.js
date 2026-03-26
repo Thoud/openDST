@@ -1,4 +1,3 @@
-import React from 'react';
 import { createTheme, ThemeProvider } from '@material-ui/core/styles';
 import Stepper from '@material-ui/core/Stepper';
 import Step from '@material-ui/core/Step';
@@ -121,11 +120,6 @@ export default function StepperWithLabels(props) {
             ),
           );
         }
-        for (let i = 0; i < slideSequences['endPage'].length; i++) {
-          list.push(
-            i18next.t(`stepper.endPage.${slideSequences['endPage'][i]}`),
-          );
-        }
         if (studyPage === 'endPage') {
           counter += slideSequences['mathTaskResult'].length;
         }
@@ -137,22 +131,14 @@ export default function StepperWithLabels(props) {
         }
       }
     }
-    // this filters out a duplicate entry on mood because it results in there being 5 steps in the introduction which bloats the screen width
-    if (
-      slideSequences[studyPage].includes('vas') &&
-      slideSequences[studyPage].includes('panas')
-    ) {
-      list = [...new Set(list)];
-      if (slideSequences[studyPage].indexOf('panas') <= props.slideIndex) {
-        counter--;
-      }
-    }
     return { steps: list, stepCounter: counter };
   }
+
   const { steps, stepCounter } = getStepsAndCounter(
     props.slideSequences,
     props.studyPagesSequence[props.pageIndex],
   );
+
   return (
     <div className="row p-0">
       <div className="col-md-12 p-0">
